@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__create-form {
+  margin: 25px;
+  width: 400px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=createFroms.css.map */

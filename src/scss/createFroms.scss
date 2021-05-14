@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__create-form {
+    //background-color: red;
+    margin: 25px;
+    width: 400px;
+    height: 400px;
+  }
+}

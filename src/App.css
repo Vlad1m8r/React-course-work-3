@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+.App__head {
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  height: 100vh;
+  background-color: #808285;
+  padding-bottom: 10px;
+}
+.App__head__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.App__head__menu:hover {
+  background-color: #D4DADE;
+  border-radius: 2px;
+  color: #231F20;
+  font-weight: bold;
+  font-size: 16px;
+}
+.App__content {
+  align-self: center;
+  height: 100vh;
+  width: 80%;
+}
+
+/*# sourceMappingURL=App.css.map */

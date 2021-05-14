@@ -1,0 +1,123 @@
+table {
+  width: 100%;
+  padding: 10px;
+  th {
+    background: #F1F2F2;
+    color: black;
+    font-size: medium;
+    padding: 10px 10px;
+  }
+
+  th, td {
+    border-style: solid;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    border-color: black;
+  }
+
+  th:first-child, td:first-child {
+    text-align: left;
+    text-align: center;
+    &:hover {
+      background-color: #F1F2F2;
+    }
+  }
+
+  td:first-child {
+    padding: 0px;
+
+  }
+
+  th:first-child {
+    &:hover{
+      background:#F1F2F2
+    }
+  }
+
+  th:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+  }
+
+  td {
+    //width: 100%;
+    padding: 10px 10px;
+    background: #E6E7E8;
+    border-radius: 5px;
+    text-align: center;
+    &:hover {
+      background-color: #D4DADE;
+      //background-color: #E6E7E8;
+    }
+
+    .btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+
+      &__danger {
+        width: 90%;
+        font-size: 16px;
+        background-color: transparent;
+        color: #FF756B;
+        border-radius: 5px;
+        border-style: none;
+        margin: 2px;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+          background-color: #FF756B;
+          color: #231F20;
+        }
+      }
+
+
+      &__default {
+        background-color: transparent;
+        width: 90%;
+        height: 100%;
+        font-size: 16px;
+        color: #5199FF;
+        font-weight: bold;
+        border-radius: 5px;
+        border-style: none;
+        margin: 2px;
+        padding: 2px;
+        cursor: pointer;
+        &:hover {
+          background-color:#5199FF;
+          color: #FAFAF2;
+          z-index: 5;
+          height: 150%;
+        }
+      }
+    }
+  }
+
+  tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+  }
+
+  tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+  }
+
+  tr td:last-child {
+    border-right: none;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  &__actions {
+    margin: 20px;
+  }
+}
+
